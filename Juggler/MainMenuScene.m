@@ -11,7 +11,7 @@
 #import "JugglerViewController.h"
 #import "GameScene.h"
 #import "Item.h"
-#import "Chartboost.h"
+#import <Chartboost/Chartboost.h>
 
 static int deviceMult;
 

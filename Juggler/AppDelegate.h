@@ -7,7 +7,7 @@
 //
 
 @import UIKit;
-#import "Chartboost.h"
+#import <Chartboost/Chartboost.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate, ChartboostDelegate> {
 }

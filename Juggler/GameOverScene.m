@@ -10,7 +10,7 @@
 #import "GameScene.h"
 #import "MainMenuScene.h"
 #import "Score.h"
-#import "Chartboost.h"
+#import <Chartboost/Chartboost.h>
 
 @interface GameOverScene () {
   Score* score;
@@ -77,7 +77,7 @@
     [self runAction:[audioSession playSound:@"Brrringgg.caf"]];
   }
   if ([score getScore] > 20) {
-    [[Chartboost sharedChartboost] showInterstitial:CBLocationGameOver];
+    [Chartboost showInterstitial:CBLocationGameOver];
   }
   cloudCounter = 0;
   self.gameScore = 0;

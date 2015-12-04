@@ -13,13 +13,9 @@
 		4F52E3F119476956000CD736 /* The_Juggler.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F52E3F019476956000CD736 /* The_Juggler.mp3 */; };
 		4F52E42E1948B9AF000CD736 /* Buzz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F52E42D1948B9AF000CD736 /* Buzz.mp3 */; };
 		4F52E4301948BA69000CD736 /* Brrringgg.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4F52E42F1948BA69000CD736 /* Brrringgg.caf */; };
-		4F5CBF991937D20C005A9BF3 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 4F5CBF951937D20C005A9BF3 /* CHANGELOG.md */; };
-		4F5CBF9A1937D20C005A9BF3 /* libChartboost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5CBF971937D20C005A9BF3 /* libChartboost.a */; };
-		4F5CBF9B1937D20C005A9BF3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4F5CBF981937D20C005A9BF3 /* README.md */; };
 		4F5CBF9D1937D225005A9BF3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5CBF9C1937D225005A9BF3 /* QuartzCore.framework */; };
 		4F5CBF9F1937D230005A9BF3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5CBF9E1937D230005A9BF3 /* SystemConfiguration.framework */; };
 		4F5CBFA11937D23A005A9BF3 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5CBFA01937D23A005A9BF3 /* AdSupport.framework */; };
-		4F5CBFA31937D246005A9BF3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5CBFA21937D246005A9BF3 /* StoreKit.framework */; };
 		4F5CBFA51937D24F005A9BF3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5CBFA41937D24F005A9BF3 /* CoreMedia.framework */; };
 		4F5CBFA71937D258005A9BF3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5CBFA61937D258005A9BF3 /* AVFoundation.framework */; };
 		4F5CBFA91937D260005A9BF3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5CBFA81937D260005A9BF3 /* CoreData.framework */; };
@@ -49,6 +45,7 @@
 		4F91363E1944D95700E7D854 /* Click_Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F9136381944D95700E7D854 /* Click_Up.mp3 */; };
 		4F91363F1944D95700E7D854 /* Click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F9136391944D95700E7D854 /* Click.mp3 */; };
 		4F9136401944D95700E7D854 /* Hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F91363A1944D95700E7D854 /* Hit.mp3 */; };
+		4FB89B711C122002005911C6 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB89B701C122002005911C6 /* Chartboost.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		4FBB1C45193BBB010084739B /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FBB1C43193BBB010084739B /* libGoogleAdMobAds.a */; };
 		4FBB1C46193BBB010084739B /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4FBB1C44193BBB010084739B /* README.txt */; };
 		4FBB1C49193BBB4D0084739B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FBB1C48193BBB4D0084739B /* AudioToolbox.framework */; };
@@ -75,15 +72,9 @@
 		4F52E3F019476956000CD736 /* The_Juggler.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = The_Juggler.mp3; sourceTree = "<group>"; };
 		4F52E42D1948B9AF000CD736 /* Buzz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Buzz.mp3; sourceTree = "<group>"; };
 		4F52E42F1948BA69000CD736 /* Brrringgg.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brrringgg.caf; sourceTree = "<group>"; };
-		4F5CBF941937D20C005A9BF3 /* CBMoreAppsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBMoreAppsButton.h; sourceTree = "<group>"; };
-		4F5CBF951937D20C005A9BF3 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
-		4F5CBF961937D20C005A9BF3 /* Chartboost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chartboost.h; sourceTree = "<group>"; };
-		4F5CBF971937D20C005A9BF3 /* libChartboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libChartboost.a; sourceTree = "<group>"; };
-		4F5CBF981937D20C005A9BF3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		4F5CBF9C1937D225005A9BF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4F5CBF9E1937D230005A9BF3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4F5CBFA01937D23A005A9BF3 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		4F5CBFA21937D246005A9BF3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		4F5CBFA41937D24F005A9BF3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		4F5CBFA61937D258005A9BF3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4F5CBFA81937D260005A9BF3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -123,6 +114,7 @@
 		4F9136381944D95700E7D854 /* Click_Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Click_Up.mp3; sourceTree = "<group>"; };
 		4F9136391944D95700E7D854 /* Click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Click.mp3; sourceTree = "<group>"; };
 		4F91363A1944D95700E7D854 /* Hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hit.mp3; sourceTree = "<group>"; };
+		4FB89B701C122002005911C6 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
 		4FBB1C37193BBB010084739B /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
 		4FBB1C38193BBB010084739B /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
 		4FBB1C39193BBB010084739B /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
@@ -150,11 +142,11 @@
 				4FBB1C4D193BBB700084739B /* MessageUI.framework in Frameworks */,
 				4FBB1C4B193BBB620084739B /* CoreTelephony.framework in Frameworks */,
 				4FBB1C49193BBB4D0084739B /* AudioToolbox.framework in Frameworks */,
+				4FB89B711C122002005911C6 /* Chartboost.framework in Frameworks */,
 				4F5CBFAB1937DD0E005A9BF3 /* iAd.framework in Frameworks */,
 				4F5CBFA91937D260005A9BF3 /* CoreData.framework in Frameworks */,
 				4F5CBFA71937D258005A9BF3 /* AVFoundation.framework in Frameworks */,
 				4F5CBFA51937D24F005A9BF3 /* CoreMedia.framework in Frameworks */,
-				4F5CBFA31937D246005A9BF3 /* StoreKit.framework in Frameworks */,
 				4F5CBFA11937D23A005A9BF3 /* AdSupport.framework in Frameworks */,
 				4F5CBF9F1937D230005A9BF3 /* SystemConfiguration.framework in Frameworks */,
 				4F5CBF9D1937D225005A9BF3 /* QuartzCore.framework in Frameworks */,
@@ -163,7 +155,6 @@
 				4F61C00E1936F43700F3ECD8 /* SpriteKit.framework in Frameworks */,
 				4FBB1C45193BBB010084739B /* libGoogleAdMobAds.a in Frameworks */,
 				4F61C0081936F43700F3ECD8 /* Foundation.framework in Frameworks */,
-				4F5CBF9A1937D20C005A9BF3 /* libChartboost.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,18 +171,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F5CBF931937D20C005A9BF3 /* Chartboost */ = {
-			isa = PBXGroup;
-			children = (
-				4F5CBF941937D20C005A9BF3 /* CBMoreAppsButton.h */,
-				4F5CBF951937D20C005A9BF3 /* CHANGELOG.md */,
-				4F5CBF961937D20C005A9BF3 /* Chartboost.h */,
-				4F5CBF971937D20C005A9BF3 /* libChartboost.a */,
-				4F5CBF981937D20C005A9BF3 /* README.md */,
-			);
-			path = Chartboost;
-			sourceTree = "<group>";
-		};
 		4F61BFFB1936F43700F3ECD8 = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +193,7 @@
 		4F61C0061936F43700F3ECD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4FB89B701C122002005911C6 /* Chartboost.framework */,
 				4FBB1C4C193BBB700084739B /* MessageUI.framework */,
 				4FBB1C4A193BBB620084739B /* CoreTelephony.framework */,
 				4FBB1C48193BBB4D0084739B /* AudioToolbox.framework */,
@@ -221,7 +201,6 @@
 				4F5CBFA81937D260005A9BF3 /* CoreData.framework */,
 				4F5CBFA61937D258005A9BF3 /* AVFoundation.framework */,
 				4F5CBFA41937D24F005A9BF3 /* CoreMedia.framework */,
-				4F5CBFA21937D246005A9BF3 /* StoreKit.framework */,
 				4F5CBFA01937D23A005A9BF3 /* AdSupport.framework */,
 				4F5CBF9E1937D230005A9BF3 /* SystemConfiguration.framework */,
 				4F5CBF9C1937D225005A9BF3 /* QuartzCore.framework */,
@@ -251,7 +230,6 @@
 				4F61C0491936F66F00F3ECD8 /* Scenes */,
 				4F61C05719371C8A00F3ECD8 /* Model */,
 				4FBB1C47193BBB0C0084739B /* AdMob */,
-				4F5CBF931937D20C005A9BF3 /* Chartboost */,
 				4F61C0101936F43700F3ECD8 /* Supporting Files */,
 			);
 			path = Juggler;
@@ -404,6 +382,11 @@
 				TargetAttributes = {
 					4F61C0031936F43700F3ECD8 = {
 						DevelopmentTeam = 7ZE54HDXZR;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 					4F61C02E1936F43800F3ECD8 = {
 						TestTargetID = 4F61C0031936F43700F3ECD8;
@@ -434,10 +417,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F5CBF9B1937D20C005A9BF3 /* README.md in Resources */,
 				4F91363F1944D95700E7D854 /* Click.mp3 in Resources */,
 				4F9136401944D95700E7D854 /* Hit.mp3 in Resources */,
-				4F5CBF991937D20C005A9BF3 /* CHANGELOG.md in Resources */,
 				4F91363C1944D95700E7D854 /* Click_Down.mp3 in Resources */,
 				4F47E8DB1942307900BB3024 /* Images.xcassets in Resources */,
 				4F91363B1944D95700E7D854 /* Score.mp3 in Resources */,
@@ -615,6 +596,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Juggler/Juggler-Prefix.pch";
 				INFOPLIST_FILE = "Juggler/Juggler-Info.plist";
@@ -641,6 +626,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Juggler/Juggler-Prefix.pch";
 				INFOPLIST_FILE = "Juggler/Juggler-Info.plist";

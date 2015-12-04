@@ -52,14 +52,14 @@
   // Must be called every time your app becomes active.
   [Chartboost startWithAppId:@"538794871873da029599b73f" appSignature:@"673ce4e7a34816fe6867a232ec58c1f7452900cb" delegate:self];
   
-  // pause sprite kit
+  // Pause sprite kit
   SKView *view = (SKView *)self.window.rootViewController.view;
   view.paused = NO;
   
   [[NSNotificationCenter defaultCenter]postNotificationName:@"applicationDidBecomeActive" object:nil];
   
   // Show an ad at location "CBLocationHomeScreen"
-  [[Chartboost sharedChartboost] showInterstitial:CBLocationHomeScreen];
+  [Chartboost showInterstitial:CBLocationHomeScreen];
   DLog(@"showing interstitial");
 }
 
