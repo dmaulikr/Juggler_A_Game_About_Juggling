@@ -6,8 +6,7 @@
 //  Copyright (c) 2014 Evan Lewis. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
+@import Foundation;
 @interface Score : NSObject
 
 - (void)add:(int)points;

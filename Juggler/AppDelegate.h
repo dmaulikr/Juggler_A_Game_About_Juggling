@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Evan Lewis. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 #import "Chartboost.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate, ChartboostDelegate> {

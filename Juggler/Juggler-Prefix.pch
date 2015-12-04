@@ -19,3 +19,9 @@
     #import "AudioSession.h"
     #define ARC4RANDOM_MAX 0x100000000
 #endif
+
+#ifdef DEBUG
+#define DLog(...) NSLog(@"%s(%p) %@", __PRETTY_FUNCTION__, self, [NSString stringWithFormat:__VA_ARGS__])
+#else
+#define DLog(...)
+#endif

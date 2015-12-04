@@ -8,8 +8,8 @@
 #import "AppDelegate.h"
 
 @interface AudioSession : NSObject  {
-    AudioSession* audioSession;
-    AVAudioPlayer* audioPlayer;
+  AudioSession* audioSession;
+  AVAudioPlayer* audioPlayer;
 }
 
 @property (nonatomic, assign) BOOL isAudioSessionActive; // Informs if SpriteKit should play sounds(SpriteKit BUG)

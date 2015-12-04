@@ -7,17 +7,15 @@
 //
 
 @interface GameCenterControl : NSObject {
-    
-    BOOL isGameCenterAvailable;
-    BOOL userAuthenticated;
-    
+  BOOL isGameCenterAvailable;
+  BOOL userAuthenticated;
 }
 
 @property (assign, readonly) BOOL isGameCenterAvailable;
 
 + (GameCenterControl *)sharedInstance;
 
--(void)authenticateLocalUser;
--(void)showLeaderboard;
+- (void)authenticateLocalUser;
+- (void)showLeaderboard;
 
 @end

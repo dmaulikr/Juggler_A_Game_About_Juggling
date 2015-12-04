@@ -6,8 +6,7 @@
 //  Copyright (c) 2014 Evan Lewis. All rights reserved.
 //
 
-#import <SpriteKit/SpriteKit.h>
-
+@import SpriteKit;
 @interface GameOverScene : SKScene
 
 @property BOOL contentCreated;

@@ -9,6 +9,5 @@
 @interface GameScene : SKScene <SKPhysicsContactDelegate>
 
 @property (nonatomic, assign) BOOL inGame;
--(void)pauseGame;
-
+- (void)pauseGame;
 @end
