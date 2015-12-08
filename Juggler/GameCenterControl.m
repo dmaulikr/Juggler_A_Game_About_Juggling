@@ -71,18 +71,16 @@ static GameCenterControl* sharedControl = nil;
     localPlayer.authenticateHandler = ^(UIViewController *gcvc,NSError *error) {
       if(gcvc) {
         [self presentViewController:gcvc];
-      }
-      else {
+      } else {
         _gameCenterFeaturesEnabled = NO;
       }
     };
-  }
-  else if ([GKLocalPlayer localPlayer].authenticated == YES){
+  } else if ([GKLocalPlayer localPlayer].authenticated == YES){
     _gameCenterFeaturesEnabled = YES;
   }
 }
 
-- (UIViewController*) getRootViewController {
+- (UIViewController*)getRootViewController {
   return [UIApplication sharedApplication].keyWindow.rootViewController;
 }
 

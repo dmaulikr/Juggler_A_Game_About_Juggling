@@ -11,6 +11,9 @@
 #import "GameCenterControl.h"
 #import "JugglerViewController.h"
 
+@import Fabric;
+@import Crashlytics;
+
 @interface AppDelegate () {
   SKView *skView;
 }
@@ -21,7 +24,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   [[GameCenterControl sharedInstance] authenticateLocalUser];
-  
+  [Fabric with:@[[Crashlytics class]]];
   return YES;
 }
 

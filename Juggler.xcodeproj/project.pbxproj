@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4F2364751939476300310BB1 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2364741939476300310BB1 /* GameOverScene.m */; };
 		4F47E8DB1942307900BB3024 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F47E8DA1942307900BB3024 /* Images.xcassets */; };
+		4F4F71C51C1739D400FE78F4 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4F71C31C1739D400FE78F4 /* Fabric.framework */; };
+		4F4F71C61C1739D400FE78F4 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4F71C41C1739D400FE78F4 /* Crashlytics.framework */; };
 		4F52E3EF1946473C000CD736 /* AudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F52E3EE1946473C000CD736 /* AudioSession.m */; };
 		4F52E3F119476956000CD736 /* The_Juggler.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F52E3F019476956000CD736 /* The_Juggler.mp3 */; };
 		4F52E42E1948B9AF000CD736 /* Buzz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F52E42D1948B9AF000CD736 /* Buzz.mp3 */; };
@@ -67,6 +69,8 @@
 		4F2364731939476300310BB1 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
 		4F2364741939476300310BB1 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
 		4F47E8DA1942307900BB3024 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4F4F71C31C1739D400FE78F4 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		4F4F71C41C1739D400FE78F4 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		4F52E3ED1946473C000CD736 /* AudioSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSession.h; sourceTree = "<group>"; };
 		4F52E3EE1946473C000CD736 /* AudioSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSession.m; sourceTree = "<group>"; };
 		4F52E3F019476956000CD736 /* The_Juggler.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = The_Juggler.mp3; sourceTree = "<group>"; };
@@ -149,11 +153,13 @@
 				4F5CBFA51937D24F005A9BF3 /* CoreMedia.framework in Frameworks */,
 				4F5CBFA11937D23A005A9BF3 /* AdSupport.framework in Frameworks */,
 				4F5CBF9F1937D230005A9BF3 /* SystemConfiguration.framework in Frameworks */,
+				4F4F71C61C1739D400FE78F4 /* Crashlytics.framework in Frameworks */,
 				4F5CBF9D1937D225005A9BF3 /* QuartzCore.framework in Frameworks */,
 				4F61C00A1936F43700F3ECD8 /* CoreGraphics.framework in Frameworks */,
 				4F61C00C1936F43700F3ECD8 /* UIKit.framework in Frameworks */,
 				4F61C00E1936F43700F3ECD8 /* SpriteKit.framework in Frameworks */,
 				4FBB1C45193BBB010084739B /* libGoogleAdMobAds.a in Frameworks */,
+				4F4F71C51C1739D400FE78F4 /* Fabric.framework in Frameworks */,
 				4F61C0081936F43700F3ECD8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +199,8 @@
 		4F61C0061936F43700F3ECD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F4F71C31C1739D400FE78F4 /* Fabric.framework */,
+				4F4F71C41C1739D400FE78F4 /* Crashlytics.framework */,
 				4FB89B701C122002005911C6 /* Chartboost.framework */,
 				4FBB1C4C193BBB700084739B /* MessageUI.framework */,
 				4FBB1C4A193BBB620084739B /* CoreTelephony.framework */,
@@ -343,6 +351,7 @@
 				4F61C0001936F43700F3ECD8 /* Sources */,
 				4F61C0011936F43700F3ECD8 /* Frameworks */,
 				4F61C0021936F43700F3ECD8 /* Resources */,
+				4F4F71C21C1739A900FE78F4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -442,6 +451,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F4F71C21C1739A900FE78F4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 2dc7fcb0503f1e8d4ab624535a9f5d48db7d596a b9a9b1123a61d00895b7f4d3986f94eb8059971ecb398ac16a006ae6182a1af2";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4F61C0001936F43700F3ECD8 /* Sources */ = {

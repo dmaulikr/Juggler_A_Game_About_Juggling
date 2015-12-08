@@ -13,6 +13,8 @@
 #import "Item.h"
 #import <Chartboost/Chartboost.h>
 
+@import Crashlytics;
+
 static int deviceMult;
 
 @interface MainMenuScene () {
@@ -81,6 +83,7 @@ static int deviceMult;
 }
 
 - (void)toggleSound {
+  [[Crashlytics sharedInstance] crash];
   if(![audioSession toggleAudioSettings]) {
     [soundNode setAlpha:0.5];
   } else {
