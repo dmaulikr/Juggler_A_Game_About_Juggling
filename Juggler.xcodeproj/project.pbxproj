@@ -17,6 +17,11 @@
 		4F9B00C81D0A112D0021C174 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9B00C61D0A112D0021C174 /* Fabric.framework */; };
 		4F9B00C91D0A112D0021C174 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9B00C71D0A112D0021C174 /* Crashlytics.framework */; };
 		4F9B00CB1D0A11A60021C174 /* GameAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9B00CA1D0A11A60021C174 /* GameAnalytics.framework */; };
+		4F9B00CE1D0A17080021C174 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9B00CD1D0A17080021C174 /* Chartboost.framework */; };
+		4F9B00D01D0A17190021C174 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9B00CF1D0A17190021C174 /* StoreKit.framework */; };
+		4F9B00D21D0A17280021C174 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9B00D11D0A17280021C174 /* Foundation.framework */; };
+		4F9B00D41D0A172E0021C174 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9B00D31D0A172E0021C174 /* CoreGraphics.framework */; };
+		4F9B00D61D0A17340021C174 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9B00D51D0A17340021C174 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,12 @@
 		4F9B00C61D0A112D0021C174 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
 		4F9B00C71D0A112D0021C174 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		4F9B00CA1D0A11A60021C174 /* GameAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GameAnalytics.framework; sourceTree = SOURCE_ROOT; };
+		4F9B00CD1D0A17080021C174 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
+		4F9B00CF1D0A17190021C174 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4F9B00D11D0A17280021C174 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F9B00D31D0A172E0021C174 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F9B00D51D0A17340021C174 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F9B00DA1D0A18E50021C174 /* Juggler-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Juggler-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +50,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9B00D61D0A17340021C174 /* UIKit.framework in Frameworks */,
+				4F9B00D41D0A172E0021C174 /* CoreGraphics.framework in Frameworks */,
+				4F9B00D21D0A17280021C174 /* Foundation.framework in Frameworks */,
+				4F9B00D01D0A17190021C174 /* StoreKit.framework in Frameworks */,
 				4F9B00C91D0A112D0021C174 /* Crashlytics.framework in Frameworks */,
+				4F9B00CE1D0A17080021C174 /* Chartboost.framework in Frameworks */,
 				4F9B00CB1D0A11A60021C174 /* GameAnalytics.framework in Frameworks */,
 				4F9B00C81D0A112D0021C174 /* Fabric.framework in Frameworks */,
 			);
@@ -75,11 +91,25 @@
 				4F9B00B61D0A0D490021C174 /* Assets.xcassets */,
 				4F9B00B81D0A0D490021C174 /* LaunchScreen.storyboard */,
 				4F9B00BB1D0A0D490021C174 /* Info.plist */,
+				4F9B00CC1D0A14360021C174 /* Frameworks */,
+				4F9B00DA1D0A18E50021C174 /* Juggler-Bridging-Header.h */,
+			);
+			path = Juggler;
+			sourceTree = "<group>";
+		};
+		4F9B00CC1D0A14360021C174 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F9B00D51D0A17340021C174 /* UIKit.framework */,
+				4F9B00D31D0A172E0021C174 /* CoreGraphics.framework */,
+				4F9B00D11D0A17280021C174 /* Foundation.framework */,
+				4F9B00CF1D0A17190021C174 /* StoreKit.framework */,
+				4F9B00CD1D0A17080021C174 /* Chartboost.framework */,
 				4F9B00CA1D0A11A60021C174 /* GameAnalytics.framework */,
 				4F9B00C61D0A112D0021C174 /* Fabric.framework */,
 				4F9B00C71D0A112D0021C174 /* Crashlytics.framework */,
 			);
-			path = Juggler;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,6 +328,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evanlewis.juggler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Juggler/Juggler-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -304,6 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -314,6 +348,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evanlewis.juggler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Juggler/Juggler-Bridging-Header.h";
 			};
 			name = Release;
 		};

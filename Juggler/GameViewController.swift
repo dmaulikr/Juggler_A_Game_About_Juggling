@@ -8,6 +8,7 @@
 
 import UIKit
 import SpriteKit
+import GameAnalytics
 
 class GameViewController: UIViewController {
 
