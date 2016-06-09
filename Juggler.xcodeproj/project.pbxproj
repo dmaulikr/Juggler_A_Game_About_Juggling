@@ -14,6 +14,9 @@
 		4F9B00B51D0A0D490021C174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9B00B31D0A0D490021C174 /* Main.storyboard */; };
 		4F9B00B71D0A0D490021C174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9B00B61D0A0D490021C174 /* Assets.xcassets */; };
 		4F9B00BA1D0A0D490021C174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9B00B81D0A0D490021C174 /* LaunchScreen.storyboard */; };
+		4F9B00C81D0A112D0021C174 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9B00C61D0A112D0021C174 /* Fabric.framework */; };
+		4F9B00C91D0A112D0021C174 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9B00C71D0A112D0021C174 /* Crashlytics.framework */; };
+		4F9B00CB1D0A11A60021C174 /* GameAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9B00CA1D0A11A60021C174 /* GameAnalytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		4F9B00B61D0A0D490021C174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F9B00B91D0A0D490021C174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F9B00BB1D0A0D490021C174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F9B00C61D0A112D0021C174 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		4F9B00C71D0A112D0021C174 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		4F9B00CA1D0A11A60021C174 /* GameAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GameAnalytics.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9B00C91D0A112D0021C174 /* Crashlytics.framework in Frameworks */,
+				4F9B00CB1D0A11A60021C174 /* GameAnalytics.framework in Frameworks */,
+				4F9B00C81D0A112D0021C174 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +75,9 @@
 				4F9B00B61D0A0D490021C174 /* Assets.xcassets */,
 				4F9B00B81D0A0D490021C174 /* LaunchScreen.storyboard */,
 				4F9B00BB1D0A0D490021C174 /* Info.plist */,
+				4F9B00CA1D0A11A60021C174 /* GameAnalytics.framework */,
+				4F9B00C61D0A112D0021C174 /* Fabric.framework */,
+				4F9B00C71D0A112D0021C174 /* Crashlytics.framework */,
 			);
 			path = Juggler;
 			sourceTree = "<group>";
@@ -80,6 +92,7 @@
 				4F9B00A41D0A0D490021C174 /* Sources */,
 				4F9B00A51D0A0D490021C174 /* Frameworks */,
 				4F9B00A61D0A0D490021C174 /* Resources */,
+				4F9B00C11D0A11060021C174 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -137,6 +150,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F9B00C11D0A11060021C174 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 2dc7fcb0503f1e8d4ab624535a9f5d48db7d596a b9a9b1123a61d00895b7f4d3986f94eb8059971ecb398ac16a006ae6182a1af2";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4F9B00A41D0A0D490021C174 /* Sources */ = {
@@ -259,6 +288,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Juggler",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Juggler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evanlewis.juggler;
@@ -271,6 +305,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Juggler",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Juggler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evanlewis.juggler;
@@ -297,6 +336,7 @@
 				4F9B00C01D0A0D490021C174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
