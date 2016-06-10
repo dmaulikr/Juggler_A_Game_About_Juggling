@@ -137,16 +137,16 @@ class MainMenuScene: SKScene {
           timer = nil
           ballTimer?.invalidate()
           ballTimer = nil
-          // TODO: Init game scene
-          GameScene *gameScene  = [[GameScene alloc] initWithSize:self.size];
-          [self.view presentScene:gameScene transition:[SKTransition pushWithDirection:SKTransitionDirectionUp duration:1.0]];
+          let gameScene = GameScene()
+            self.view?.presentScene(gameScene, transition: SKTransition.pushWithDirection(SKTransitionDirection.Up, duration: 1.0))
+          
         case "Score":
           self.change(node:node, to: "Leaderboard-Button")
           if let playSound = audioSession.playSound("Click_Up.mp3") {
             self.runAction(playSound)
           }
-          JugglerViewController* vc = [[JugglerViewController alloc] init];
-          [vc showGameCenterLeaderboard];
+          let jvc = JugglerViewController()
+          jvc.showGameCenterLeaderboard()
         case "Sound":
           self.change(node:node, to: "Sound-Button")
           self.toggleSound()
