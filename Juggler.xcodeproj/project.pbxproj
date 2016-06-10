@@ -21,6 +21,16 @@
 		4F9B00D41D0A172E0021C174 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9B00D31D0A172E0021C174 /* CoreGraphics.framework */; };
 		4F9B00D61D0A17340021C174 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9B00D51D0A17340021C174 /* UIKit.framework */; };
 		4F9B00DE1D0A28A90021C174 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B00DD1D0A28A90021C174 /* MainMenuScene.swift */; };
+		4F9B00E71D0A46D00021C174 /* Buzz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F9B00E11D0A46D00021C174 /* Buzz.mp3 */; };
+		4F9B00E81D0A46D00021C174 /* Click_Down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F9B00E21D0A46D00021C174 /* Click_Down.mp3 */; };
+		4F9B00E91D0A46D00021C174 /* Click_Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F9B00E31D0A46D00021C174 /* Click_Up.mp3 */; };
+		4F9B00EA1D0A46D00021C174 /* Click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F9B00E41D0A46D00021C174 /* Click.mp3 */; };
+		4F9B00EB1D0A46D00021C174 /* Hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F9B00E51D0A46D00021C174 /* Hit.mp3 */; };
+		4F9B00EC1D0A46D00021C174 /* Score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F9B00E61D0A46D00021C174 /* Score.mp3 */; };
+		4F9B00F01D0A47C10021C174 /* AudioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B00EF1D0A47C10021C174 /* AudioSession.swift */; };
+		4F9B00F21D0A48940021C174 /* The_Juggler.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F9B00F11D0A48940021C174 /* The_Juggler.mp3 */; };
+		4F9B00F41D0A4F7A0021C174 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4F9B00F31D0A4F7A0021C174 /* MainMenuScene.sks */; };
+		4F9B00F61D0A50B40021C174 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B00F51D0A50B30021C174 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +51,17 @@
 		4F9B00D51D0A17340021C174 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4F9B00DA1D0A18E50021C174 /* Juggler-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Juggler-Bridging-Header.h"; sourceTree = "<group>"; };
 		4F9B00DD1D0A28A90021C174 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		4F9B00E11D0A46D00021C174 /* Buzz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Buzz.mp3; sourceTree = "<group>"; };
+		4F9B00E21D0A46D00021C174 /* Click_Down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Click_Down.mp3; sourceTree = "<group>"; };
+		4F9B00E31D0A46D00021C174 /* Click_Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Click_Up.mp3; sourceTree = "<group>"; };
+		4F9B00E41D0A46D00021C174 /* Click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Click.mp3; sourceTree = "<group>"; };
+		4F9B00E51D0A46D00021C174 /* Hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hit.mp3; sourceTree = "<group>"; };
+		4F9B00E61D0A46D00021C174 /* Score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Score.mp3; sourceTree = "<group>"; };
+		4F9B00ED1D0A46D70021C174 /* Brrringgg.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brrringgg.caf; sourceTree = "<group>"; };
+		4F9B00EF1D0A47C10021C174 /* AudioSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioSession.swift; sourceTree = "<group>"; };
+		4F9B00F11D0A48940021C174 /* The_Juggler.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = The_Juggler.mp3; sourceTree = "<group>"; };
+		4F9B00F31D0A4F7A0021C174 /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
+		4F9B00F51D0A50B30021C174 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +105,14 @@
 				4F9B00AB1D0A0D490021C174 /* AppDelegate.swift */,
 				4F9B00B11D0A0D490021C174 /* GameViewController.swift */,
 				4F9B00DD1D0A28A90021C174 /* MainMenuScene.swift */,
+				4F9B00F31D0A4F7A0021C174 /* MainMenuScene.sks */,
+				4F9B00EF1D0A47C10021C174 /* AudioSession.swift */,
+				4F9B00F51D0A50B30021C174 /* Item.swift */,
 				4F9B00B31D0A0D490021C174 /* Main.storyboard */,
 				4F9B00B61D0A0D490021C174 /* Assets.xcassets */,
 				4F9B00B81D0A0D490021C174 /* LaunchScreen.storyboard */,
 				4F9B00BB1D0A0D490021C174 /* Info.plist */,
+				4F9B00EE1D0A46F40021C174 /* Audio */,
 				4F9B00CC1D0A14360021C174 /* Frameworks */,
 				4F9B00DA1D0A18E50021C174 /* Juggler-Bridging-Header.h */,
 			);
@@ -107,6 +132,21 @@
 				4F9B00C71D0A112D0021C174 /* Crashlytics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F9B00EE1D0A46F40021C174 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				4F9B00F11D0A48940021C174 /* The_Juggler.mp3 */,
+				4F9B00ED1D0A46D70021C174 /* Brrringgg.caf */,
+				4F9B00E11D0A46D00021C174 /* Buzz.mp3 */,
+				4F9B00E21D0A46D00021C174 /* Click_Down.mp3 */,
+				4F9B00E31D0A46D00021C174 /* Click_Up.mp3 */,
+				4F9B00E41D0A46D00021C174 /* Click.mp3 */,
+				4F9B00E51D0A46D00021C174 /* Hit.mp3 */,
+				4F9B00E61D0A46D00021C174 /* Score.mp3 */,
+			);
+			name = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,9 +209,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9B00E91D0A46D00021C174 /* Click_Up.mp3 in Resources */,
+				4F9B00E81D0A46D00021C174 /* Click_Down.mp3 in Resources */,
+				4F9B00EB1D0A46D00021C174 /* Hit.mp3 in Resources */,
 				4F9B00BA1D0A0D490021C174 /* LaunchScreen.storyboard in Resources */,
+				4F9B00EA1D0A46D00021C174 /* Click.mp3 in Resources */,
+				4F9B00E71D0A46D00021C174 /* Buzz.mp3 in Resources */,
+				4F9B00EC1D0A46D00021C174 /* Score.mp3 in Resources */,
 				4F9B00B71D0A0D490021C174 /* Assets.xcassets in Resources */,
+				4F9B00F41D0A4F7A0021C174 /* MainMenuScene.sks in Resources */,
 				4F9B00B51D0A0D490021C174 /* Main.storyboard in Resources */,
+				4F9B00F21D0A48940021C174 /* The_Juggler.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,9 +246,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9B00F61D0A50B40021C174 /* Item.swift in Sources */,
 				4F9B00DE1D0A28A90021C174 /* MainMenuScene.swift in Sources */,
 				4F9B00B21D0A0D490021C174 /* GameViewController.swift in Sources */,
 				4F9B00AC1D0A0D490021C174 /* AppDelegate.swift in Sources */,
+				4F9B00F01D0A47C10021C174 /* AudioSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
