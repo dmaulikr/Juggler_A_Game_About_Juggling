@@ -145,8 +145,8 @@ class MainMenuScene: SKScene {
           if let playSound = audioSession.playSound("Click_Up.mp3") {
             self.runAction(playSound)
           }
-          let jvc = JugglerViewController()
-          jvc.showGameCenterLeaderboard()
+          let gvc = GameViewController()
+          gvc.showGameCenterLeaderboard()
         case "Sound":
           self.change(node:node, to: "Sound-Button")
           self.toggleSound()

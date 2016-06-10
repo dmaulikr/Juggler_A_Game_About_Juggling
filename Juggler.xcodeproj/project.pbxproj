@@ -33,7 +33,6 @@
 		4F9B00F61D0A50B40021C174 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B00F51D0A50B30021C174 /* Item.swift */; };
 		4F9B00F81D0A85650021C174 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B00F71D0A85650021C174 /* GameScene.swift */; };
 		4F9B00FA1D0A85720021C174 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4F9B00F91D0A85720021C174 /* GameScene.sks */; };
-		4F9B00FC1D0A86700021C174 /* JugglerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B00FB1D0A86700021C174 /* JugglerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,7 +66,6 @@
 		4F9B00F51D0A50B30021C174 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		4F9B00F71D0A85650021C174 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		4F9B00F91D0A85720021C174 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		4F9B00FB1D0A86700021C174 /* JugglerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JugglerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +108,6 @@
 			children = (
 				4F9B00AB1D0A0D490021C174 /* AppDelegate.swift */,
 				4F9B00B11D0A0D490021C174 /* GameViewController.swift */,
-				4F9B00FB1D0A86700021C174 /* JugglerViewController.swift */,
 				4F9B00DD1D0A28A90021C174 /* MainMenuScene.swift */,
 				4F9B00F31D0A4F7A0021C174 /* MainMenuScene.sks */,
 				4F9B00EF1D0A47C10021C174 /* AudioSession.swift */,
@@ -257,7 +254,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F9B00F81D0A85650021C174 /* GameScene.swift in Sources */,
-				4F9B00FC1D0A86700021C174 /* JugglerViewController.swift in Sources */,
 				4F9B00F61D0A50B40021C174 /* Item.swift in Sources */,
 				4F9B00DE1D0A28A90021C174 /* MainMenuScene.swift in Sources */,
 				4F9B00B21D0A0D490021C174 /* GameViewController.swift in Sources */,
