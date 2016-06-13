@@ -11,7 +11,6 @@
 @interface GameCenterControl () <GKGameCenterControllerDelegate> {
   BOOL _gameCenterFeaturesEnabled;
 }
-
 @end
 
 @implementation GameCenterControl
@@ -49,7 +48,6 @@ static GameCenterControl* sharedControl = nil;
   return self;
 }
 
-
 - (void)authenticationChanged {
   
   if ([GKLocalPlayer localPlayer].isAuthenticated && !userAuthenticated) {
@@ -63,7 +61,6 @@ static GameCenterControl* sharedControl = nil;
   }
   
 }
-
 
 - (void) authenticateLocalUser {
   if ([GKLocalPlayer localPlayer].authenticated == NO) {

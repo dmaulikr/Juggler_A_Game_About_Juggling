@@ -6,11 +6,11 @@
 //  Copyright (c) 2014 Evan Lewis. All rights reserved.
 //
 
+#import <Chartboost/Chartboost.h>
 #import "GameOverScene.h"
 #import "GameScene.h"
 #import "MainMenuScene.h"
 #import "Score.h"
-#import <Chartboost/Chartboost.h>
 
 @interface GameOverScene () {
   Score* score;

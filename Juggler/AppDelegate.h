@@ -7,9 +7,8 @@
 //
 
 @import UIKit;
-#import <Chartboost/Chartboost.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate, ChartboostDelegate> {
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
 }
 
 @property (strong, nonatomic) UIWindow *window;
