@@ -7,11 +7,8 @@
 //
 
 @import UIKit;
-@import iAd;
-#import "GADBannerView.h"
 
-@interface JugglerViewController : UIViewController <ADBannerViewDelegate> {
-  GADBannerView *bannerView;
+@interface JugglerViewController : UIViewController {
 }
 
 -(void)showGameCenterLeaderboard;

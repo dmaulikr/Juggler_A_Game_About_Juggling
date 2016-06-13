@@ -30,32 +30,32 @@
 
 - (void)startAudio {
   if (self.isAudioSessionActive) {
-    //[self.audioPlayer prepareToPlay];
-    //[self.audioPlayer play];
+    [self.audioPlayer prepareToPlay];
+    [self.audioPlayer play];
   }
 }
 
 - (void)stopAudio {
-  //[self.audioPlayer stop];
+  [self.audioPlayer stop];
   self.isAudioSessionActive = NO;
 }
 
 - (void)pauseAudio {
-  //[self.audioPlayer pause];
+  [self.audioPlayer pause];
   self.isAudioSessionActive = NO;
 }
 
 - (void)resumeAudio {
   if (self.isAudioSessionActive) {
-    //[self.audioPlayer play];
+    [self.audioPlayer play];
   }
   self.isAudioSessionActive = YES;
 }
 
 - (SKAction *)playSound:(NSString *)sound {
   if(self.isAudioSessionActive) {
-    //SKAction* playSound = [SKAction playSoundFileNamed:sound waitForCompletion:NO];
-    //return playSound;
+    SKAction* playSound = [SKAction playSoundFileNamed:sound waitForCompletion:NO];
+    return playSound;
   }
   return nil;
 }
@@ -81,13 +81,13 @@
 - (BOOL)toggleAudioSettings {
   if (self.isAudioSessionActive) {
     DLog(@"turning off audio");
-    //[self stopAudio];
+    [self stopAudio];
     [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"Juggler_isAudioSessionActive"];
     [[NSUserDefaults standardUserDefaults] synchronize];
     return NO;
   } else if ([[MPMusicPlayerController iPodMusicPlayer] playbackState] != MPMusicPlaybackStatePlaying) {
     self.isAudioSessionActive = YES;
-    //[self startAudio];
+    [self startAudio];
     DLog(@"turning on audio");
     [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"Juggler_isAudioSessionActive"];
     [[NSUserDefaults standardUserDefaults] synchronize];
